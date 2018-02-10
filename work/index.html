@@ -7,11 +7,34 @@
 
   <link rel="stylesheet" href="css/main.css" />
 
+  <style>
+    video.blur-invert {
+      -webkit-filter: blur(4px) invert(1) opacity(0.5);
+      filter: blur(4px) invert(1) opacity(0.5);
+    }
+
+    video.hue-saturate {
+      -moz-filter: hue-rotate(180deg) saturate(200%);
+      -webkit-filter: hue-rotate(180deg) saturate(200%);
+      filter: hue-rotate(180deg) saturate(200%);
+    }
+  </style>
+
 </head>
 
 <body>
 
   <h1>Realtime communication with WebRTC</h1>
+
+  <fieldset><legend>Filters</legend>
+    <button class="blur-invert">Blur invert</button>
+    <button class="hue-saturate">Hue-rorate saturate</button>
+    <button class="">Reset</button>
+  </fieldset>
+
+  <video autoplay></video>
+
+  <script src="js/main.js"></script>
 
 </body>
 

@@ -1,0 +1,25 @@
+{
+  "name": "webrtc-web",
+  "version": "1.0.0",
+  "description": "This code has the resources you need for the codelab [Realtime communication with WebRTC](https://codelabs.developers.google.com/codelabs/webrtc-web/#0).",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "start": "ecstatic work --port 8887",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/googlecodelabs/webrtc-web.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/googlecodelabs/webrtc-web/issues"
+  },
+  "homepage": "https://github.com/googlecodelabs/webrtc-web#readme",
+  "devDependencies": {
+    "ecstatic": "^3.2.0"
+  }
+}
